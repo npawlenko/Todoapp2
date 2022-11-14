@@ -43,6 +43,6 @@ public class TaskStorage {
 
 
     public void addTask(Task task) {
-        tasks.add(task);
+        tasks.add(0, task);
     }
 }
